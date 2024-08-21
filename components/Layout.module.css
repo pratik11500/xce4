@@ -1,0 +1,86 @@
+/* Layout.module.css */
+
+/* Basic styles for the main layout */
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.header .nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .nav a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header .nav a:hover {
+  text-decoration: underline;
+}
+
+.header .authButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .authButtons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.header .authButtons button:hover {
+  background-color: #0056b3;
+}
+
+/* Main content styling */
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Footer styling */
+.footer {
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+  color: #6c757d;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
