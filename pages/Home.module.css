@@ -1,0 +1,66 @@
+/* Home.module.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+ 
+}
+
+.userImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the image circular */
+  margin-right: 10px;
+  object-fit: cover; /* Ensures the image covers the circle area without distortion */
+}
+
+.messageInput {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  width: calc(100% - 22px);
+}
+
+.sendButton {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sendButton:hover {
+  background-color: #005bb5;
+}
+
+.signOut {
+  margin-top: 10px;
+}
